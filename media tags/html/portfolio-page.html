@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+</head>
+<body>
+    <!--This is our navbar section-->
+    <header>
+        <ul style="list-style-type: none;">
+            <li>
+                <a href="#about">About me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+    </header>
+<!--main content-->
+    <main>
+<section id="about">
+    <h3 align="center">About me</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+</section>
+<section id="contact">
+    <h3 align="center">Contact me</h3>
+    <form action="./script.js" method="post"></form>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter your name" value="Shiwangi" name="name" required>
+    </div>
+    <br>
+    <div>
+        <label for="Message">Message</label>
+        <textarea name="Message" id="Message" cols="100" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="tel">Phone no.</label>
+        <input type="tel" id="phone" value="6202297669" name="number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="xxx-xxx-xxxx" required>
+    </div>
+    <br>
+    <div>
+     <label for="date-time">Date and Time of appointment</label>
+     <input type="datetime-local">
+    </div>
+    <br>
+    <div>
+        <label for="Contact-type">Contact via call or whatsapp</label>
+        <label for="call">Call</label>
+        <input type="radio" name="Contact-type" value="call">
+
+        <label for="whatsapp">whatsapp</label>
+        <input type="radio" name="Contact-type" value="whatsapp">
+    </div>
+    <br>
+    <div>
+        <label for="time-slot">Time Slot:</label>
+        <label for="11 to 12">11am to 12pm</label>
+        <input type="checkbox">
+
+        <label for="4 to 5">4pm to 5pm</label>
+        <input type="checkbox">
+
+        <label for="6 to 7">6pm to 7pm</label>
+        <input type="checkbox">
+    </div>
+    <br>
+    <div>
+       <input type="submit" value="submit">
+       <input type="reset" value="reset">
+    </div>
+</section>
+<section id="projects">
+    <h3 align="center">Projects</h3>
+    <table border="1" cell-spacing="0" align="center">
+       <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>description</th>
+        <th>Projects link</th>        
+       </tr>
+       <tr>
+        <td>1</td>
+        <td>notes app</td>
+        <td>This contains notes app wherein you can add, remove or edit your notes</td>
+        <td> <a href="https://github.com/shiwangik13">https://github.com/shiwangik13</a> </td>
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>tasks app</td>
+        <td>This contains notes app wherein you can add, remove or edit your notes</td>
+        <td> <a href="https://github.com/shiwangik13">https://github.com/shiwangik13</a> </td>
+       </tr>
+    </table>
+</section>
+    </main>
+
+    <!--footer section-->
+    <footer>
+    <h3 align="center">You can also connect me on:</h3>
+    <div>
+        <a href="#" target="_blank">Gmail</a> <br>
+        <a href="#" target="_blank">Linkdin</a> <br>
+        <a href="#" target="_blank">Github</a> <br>
+    </div>
+    </footer>
+</body>
+</html>
