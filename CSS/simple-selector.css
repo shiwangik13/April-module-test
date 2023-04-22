@@ -1,0 +1,76 @@
+/* Simple selectors:- */
+
+/*Tag selector:- we use HTML tags to select an element */
+/* h1{
+    border: 1px solid black;
+    color: blue;
+    font-size: large;
+}
+p{
+    border: 1px solid blue;
+    color: brown;
+    font-size: 40px;
+} */
+/*class selectors: it selects HTML element with specific class attribute*/
+
+/* .class_name{
+    property: value;
+} */
+
+/*.para{
+    color: blueviolet;
+}
+
+.para{
+    color: green;
+} */
+
+/* ** this class updated to green color (which color applied in the last that shown in the page it means that it updates the design)*/
+
+
+
+/* id selector: it selects HTML element with the specified id */
+
+/* id_name{
+    proprty: value;
+}  */
+
+/*#para-1{
+    color: red;
+} */
+
+
+
+/* Universal selector: selects all the HTML elements in your page */
+
+ *{
+       text-align: center;
+       
+     } 
+
+
+
+/* Grouping selector: used for grouping different selectors with same style */
+
+h1,h2, p{
+    border: 1px solid black;
+    color: blue;
+    font-size: large;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    width: 20%;
+    padding: 10px 20px;
+}
+#btn-1{
+    background-color: red;
+}
+#btn-2{
+    background-color: yellow;
+}
+#btn-3{
+    background-color: green;
+}

@@ -1,0 +1,17 @@
+p{
+    color: chocolate;
+    background-color: aqua;
+}
+.para{
+    color: red;
+    background-color: aquamarine;
+}
+#para-1{
+    color: blue;
+}
+#para-2{
+    color: gray;
+}
+.para-3{
+    background-color: yellow;
+}

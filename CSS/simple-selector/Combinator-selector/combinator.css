@@ -1,0 +1,12 @@
+.head ~ p{
+    color: blueviolet;
+}
+.head ~ h2 {
+    color: greenyellow;
+}
+p ~ h1 {
+    color: red;
+}
+.sel ~ p {
+    color: brown;
+}
